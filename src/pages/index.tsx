@@ -27,7 +27,7 @@ interface HomeProps {
   postsPagination: PostPagination;
 }
 
-export default function Home({ posts }: Post) {
+export default function Home({ postsPagination, preview }: Post) {
   return (
     <>
       <Head>
