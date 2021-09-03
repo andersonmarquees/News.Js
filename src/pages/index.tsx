@@ -33,6 +33,20 @@ export default function Home({ postsPagination, preview }: Post) {
       <Head>
         <title>Home | News.JS</title>
       </Head>
+      <section>
+        <article>
+          <a href="#">Title Post</a>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </article>
+        <article>
+          <a href="#">Title Post</a>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </article>
+        <article>
+          <a href="#">Title Post</a>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </article>
+      </section>
     </>
   );
 }
